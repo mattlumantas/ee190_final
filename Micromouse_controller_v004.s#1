@@ -6241,8 +6241,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="SMD"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="SMD"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="SMD"/>
-<part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
-<part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6277,8 +6275,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="C4" gate="G$1" x="132.08" y="27.94"/>
 <instance part="C5" gate="G$1" x="129.54" y="7.62"/>
 <instance part="C6" gate="G$1" x="132.08" y="17.78"/>
-<instance part="SUPPLY12" gate="GND" x="5.08" y="35.56"/>
-<instance part="SUPPLY13" gate="GND" x="35.56" y="91.44" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6400,14 +6396,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="JP1" gate="G$1" pin="6"/>
 <wire x1="83.82" y1="-12.7" x2="83.82" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="SUPPLY12" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="SUPPLY13" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$11" class="0">
